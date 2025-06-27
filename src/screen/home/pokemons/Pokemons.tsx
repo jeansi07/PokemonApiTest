@@ -10,7 +10,7 @@ import { PokemonCharts } from "../../../components/Charts";
 import Loader from "../../../components/Loader/Loader";
 import { Logo } from "../../../components/Logo";
 import PokemonsDetails from "../../../components/Modal/PokemonsDetails";
-import { Select } from "../../../components/Select";
+import { Select } from "../../../components/Select/Select";
 import { PokemonResponse } from "../../../interfaces/types";
 
 const ITEMS_PER_PAGE = 20;
