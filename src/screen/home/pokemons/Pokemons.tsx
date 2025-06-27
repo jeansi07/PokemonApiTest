@@ -1,13 +1,12 @@
+import axios from "axios";
 import { useEffect, useState } from "react";
 import { useQuery } from "react-query";
 import {
   fetchAllPokemons,
   fetchPokemonTypes,
 } from "../../../api/get/getPokemons";
-import { PokeCard } from "../../../components/Card";
-
-import axios from "axios";
 import { Select } from "../../../components";
+import { PokeCard } from "../../../components/Card";
 import { PokemonCharts } from "../../../components/Charts";
 import Loader from "../../../components/Loader/Loader";
 import { Logo } from "../../../components/Logo";

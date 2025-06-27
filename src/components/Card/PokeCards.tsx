@@ -41,7 +41,7 @@ export const PokeCard: React.FC<{
             Abilities: {abilities.join(", ")}
           </li>
         </ol>
-        <div className="flex mt-2 ml-2 gap-2">
+        <div className="flex mt-2 ml-1 gap-2">
           {types.map((type) => (
             <span
               style={{ backgroundColor: type.color }}
