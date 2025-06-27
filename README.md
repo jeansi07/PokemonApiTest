@@ -15,3 +15,10 @@
 4: react-loader-spinner
 5: react-query
 6: tailwind
+
+
+## Photos 
+![image](https://github.com/user-attachments/assets/80538587-c2c6-4180-8263-9f4f2df8df68)
+
+![image](https://github.com/user-attachments/assets/e1363831-d900-4a6c-a828-ffa4ed7f7af5)
+
