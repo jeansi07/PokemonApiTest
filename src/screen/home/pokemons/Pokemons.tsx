@@ -11,7 +11,7 @@ import Loader from "../../../components/Loader/Loader";
 import { Logo } from "../../../components/Logo";
 import PokemonsDetails from "../../../components/Modal/PokemonsDetails";
 
-import { Select } from "../../../components/Select";
+import { SelectType } from "../../../components";
 import { PokemonResponse } from "../../../interfaces/types";
 
 const ITEMS_PER_PAGE = 20;
@@ -149,7 +149,7 @@ export const Pokemons = () => {
           </button>
         )}
         <div>
-          <Select
+          <SelectType
             onChange={(value: string) => setSelectTypes(value)}
             selectTypes={types?.results.map((i) => i.name) ?? []}
             values={selectTypes ?? ""}

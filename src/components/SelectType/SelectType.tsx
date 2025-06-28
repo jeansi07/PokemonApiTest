@@ -1,6 +1,6 @@
 import { TypePokemon } from "../../interfaces/types";
 
-export const Select = ({ onChange, selectTypes, values }: TypePokemon) => {
+export const SelectType = ({ onChange, selectTypes, values }: TypePokemon) => {
   return (
     <div className="w-full ">
       <label
