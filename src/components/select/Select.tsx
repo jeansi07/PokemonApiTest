@@ -5,7 +5,7 @@ export const Select = ({ onChange, selectTypes, values }: TypePokemon) => {
     <div className="w-full ">
       <label
         htmlFor="language"
-        className="block mb-2 text-lg font-medium text-gray-700"
+        className="block mb-1 text-lg font-medium text-gray-700"
       >
         Tipo de Pokémon
       </label>
