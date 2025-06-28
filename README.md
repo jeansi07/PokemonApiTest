@@ -7,7 +7,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto en tu entorno local:
 Clona el repositorio:
 
 
-git clone [URL_DEL_PROYECTO]
+git clone https://github.com/jeansi07/PokemonApiTest.git
 Instala las dependencias:
 npm install
 
@@ -23,8 +23,6 @@ Tecnologías y librerías utilizadas
 Axios – Cliente HTTP para consumir la API.
 
 Chart.js – Visualización de estadísticas de los Pokémon.
-
-React Intersection Observer – Detección de elementos en el viewport.
 
 React Loader Spinner – Indicadores de carga animados.
 
