@@ -1,20 +1,36 @@
-## Nombre del proyecto: POKEDEX
+Proyecto: Pokedex
+Aplicación web desarrollada con React que permite explorar información de distintos Pokémon mediante la integración con una API pública. Incluye visualización de datos, carga dinámica y diseño responsivo.
 
-## Instalacion del proyecto
+Instalación y puesta en marcha
+Sigue estos pasos para clonar y ejecutar el proyecto en tu entorno local:
 
-1: Clonar el repositorio del proyecto con el siguiente comando git `git clone "url del proyecto"`
-2: Instalar dependencias `npm install`
-3: Correr servidor de desarrollo `npm run dev`
-4:Dirigirse al navegador y pegar el link `http://127.0.0.1:5173/`
+Clona el repositorio:
 
-## Librerias utilizadas en el proyecto
 
-1: axios
-2: chart.js
-3: react-intersection-observer
-4: react-loader-spinner
-5: react-query
-6: tailwind
+git clone https://github.com/jeansi07/PokemonApiTest.git
+Instala las dependencias:
+npm install
+
+
+Inicia el servidor de desarrollo:
+npm run dev
+
+Abre el navegador en la siguiente dirección:
+http://127.0.0.1:5173/
+
+
+Tecnologías y librerías utilizadas
+Axios – Cliente HTTP para consumir la API.
+
+Chart.js – Visualización de estadísticas de los Pokémon.
+
+React Loader Spinner – Indicadores de carga animados.
+
+React Query – Manejo eficiente de peticiones, caché y sincronización de datos.
+
+Tailwind CSS – Utilidades CSS para un diseño moderno y responsivo.
+
+
 
 
 ## Photos 
